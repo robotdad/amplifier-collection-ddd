@@ -1,11 +1,12 @@
-# Include standard documentation
+# Include metadata files
 include LICENSE
 include README.md
 include CODE_OF_CONDUCT.md
 include SECURITY.md
 include SUPPORT.md
+include pyproject.toml
 
-# Include all collection resources
+# Include all collection data
 recursive-include agents *.md
 recursive-include context *.md
 recursive-include profiles *.md

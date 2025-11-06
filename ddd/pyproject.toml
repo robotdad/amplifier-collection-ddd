@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "amplifier-collection-ddd"
+name = "ddd"
 version = "1.0.0"
 description = "Document-Driven Development workflow collection for Amplifier"
 readme = "README.md"
 requires-python = ">=3.11"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Brian Krabach", email = "robotdad@users.noreply.github.com"}
 ]
@@ -21,7 +21,7 @@ documentation = "https://github.com/robotdad/amplifier-collection-ddd#readme"
 packages = {find = {}}
 
 [tool.setuptools.package-data]
-ddd = ["*.toml"]
+"*" = ["*.md", "*.toml"]
 
 [tool.amplifier.collection]
 author = "robotdad"
