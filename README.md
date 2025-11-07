@@ -28,7 +28,7 @@ DDD: **Docs → Approval → Code** (perfect sync by design)
 
 ```bash
 # Install the collection (requires foundation collection)
-amplifier collection add git+https://github.com/robotdad/amplifier-collection-ddd@v1.0.0
+amplifier collection add git+https://github.com/robotdad/amplifier-collection-ddd@vmain
 
 # Verify installation
 amplifier collection show ddd
