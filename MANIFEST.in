@@ -5,6 +5,7 @@ include CODE_OF_CONDUCT.md
 include SECURITY.md
 include SUPPORT.md
 include pyproject.toml
+include collection.yaml
 
 # Include all collection data
 recursive-include agents *.md
