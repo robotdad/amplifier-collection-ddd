@@ -241,9 +241,9 @@ find docs/ -name "*.md" -exec wc -l {} + | \
 
 File crawling is used throughout:
 
-- **[Phase 1](../phases/01_documentation_retcon.md)**: Documentation file processing
-- **[Phase 4](../phases/04_code_implementation.md)**: Code file implementation
-- **[Phase 5](../phases/05_testing_and_verification.md)**: Testing documented examples
+- **[Phase 1](../phases/01-documentation-retcon.md)**: Documentation file processing
+- **[Phase 4](../phases/04-code-implementation.md)**: Code file implementation
+- **[Phase 5](../phases/05-testing-and-verification.md)**: Testing documented examples
 
 ---
 
@@ -290,6 +290,6 @@ rm /tmp/checklist.txt /tmp/files.txt
 
 **Return to**: [Core Concepts](README.md) | [Main Index](../README.md)
 
-**Related**: [Context Poisoning](context_poisoning.md) | [Retcon Writing](retcon_writing.md)
+**Related**: [Context Poisoning](context-poisoning.md) | [Retcon Writing](retcon-writing.md)
 
-**See Also**: [Phase 1](../phases/01_documentation_retcon.md) | [Phase 4](../phases/04_code_implementation.md)
+**See Also**: [Phase 1](../phases/01-documentation-retcon.md) | [Phase 4](../phases/04-code-implementation.md)

@@ -102,7 +102,7 @@ Actual: [must match]
 
 ## Step 2: Systematic Testing with File Crawling
 
-Use [file crawling](../core_concepts/file_crawling.md) for comprehensive testing:
+Use [file crawling](../core_concepts/file-crawling.md) for comprehensive testing:
 
 ```bash
 # Generate test checklist from documentation
@@ -700,6 +700,6 @@ $ amplifier provider use anthropic  # Missing required flag
 
 **Prerequisites**: [Phase 4: Code Implementation](04_code_implementation.md)
 
-**Core Techniques**: [File Crawling](../core_concepts/file_crawling.md)
+**Core Techniques**: [File Crawling](../core_concepts/file-crawling.md)
 
 **Philosophy**: [IMPLEMENTATION_PHILOSOPHY.md](../../ai_context/IMPLEMENTATION_PHILOSOPHY.md#testing-strategy)

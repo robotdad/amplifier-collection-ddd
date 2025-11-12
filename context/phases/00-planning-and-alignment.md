@@ -31,7 +31,7 @@ Establish clear, shared understanding of what will be built before touching any 
 - "What files would be affected?"
 - "What patterns exist to follow?"
 
-**Use [file crawling](../core_concepts/file_crawling.md) if large scope**.
+**Use [file crawling](../core_concepts/file-crawling.md) if large scope**.
 
 ### Step 3: Brainstorming & Proposals
 

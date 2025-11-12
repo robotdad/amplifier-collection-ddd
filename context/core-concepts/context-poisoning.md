@@ -244,7 +244,7 @@ amplifier init
 
 Historical info belongs in git history and CHANGELOG, not docs.
 
-See [Retcon Writing](retcon_writing.md) for details.
+See [Retcon Writing](retcon-writing.md) for details.
 
 ### 4. Systematic Global Updates
 
@@ -265,11 +265,11 @@ git commit -am "docs: Standardize terminology: workflow → profile"
 
 ### 5. Catch During File Processing
 
-When using [file crawling](file_crawling.md), check each file for conflicts.
+When using [file crawling](file-crawling.md), check each file for conflicts.
 
 **If detected**: PAUSE, collect all instances, ask human for resolution.
 
-See [Phase 1: Step 6](../phases/01_documentation_retcon.md#step-6-detecting-and-resolving-conflicts) for details.
+See [Phase 1: Step 6](../phases/01-documentation-retcon.md#step-6-detecting-and-resolving-conflicts) for details.
 
 ---
 
@@ -446,11 +446,11 @@ Before committing any documentation:
 
 Context poisoning prevention is built into every phase:
 
-- **[Phase 0](../phases/00_planning_and_alignment.md)**: Check docs during reconnaissance
-- **[Phase 1](../phases/01_documentation_retcon.md)**: Enforce maximum DRY
-- **[Phase 2](../phases/02_approval_gate.md)**: Human catches inconsistencies
-- **[Phase 4](../phases/04_code_implementation.md)**: Pause when docs conflict
-- **[Phase 5](../phases/05_testing_and_verification.md)**: Examples reveal conflicts
+- **[Phase 0](../phases/00-planning-and-alignment.md)**: Check docs during reconnaissance
+- **[Phase 1](../phases/01-documentation-retcon.md)**: Enforce maximum DRY
+- **[Phase 2](../phases/02-approval-gate.md)**: Human catches inconsistencies
+- **[Phase 4](../phases/04-code-implementation.md)**: Pause when docs conflict
+- **[Phase 5](../phases/05-testing-and-verification.md)**: Examples reveal conflicts
 
 **Result**: Context poisoning prevented by design, not by luck.
 
@@ -458,6 +458,6 @@ Context poisoning prevention is built into every phase:
 
 **Return to**: [Core Concepts](README.md) | [Main Index](../README.md)
 
-**Related**: [File Crawling](file_crawling.md) | [Retcon Writing](retcon_writing.md)
+**Related**: [File Crawling](file-crawling.md) | [Retcon Writing](retcon-writing.md)
 
-**See Also**: [Phase 1 Step 4](../phases/01_documentation_retcon.md#step-4-maximum-dry-enforcement)
+**See Also**: [Phase 1 Step 4](../phases/01-documentation-retcon.md#step-4-maximum-dry-enforcement)

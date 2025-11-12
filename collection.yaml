@@ -1,0 +1,15 @@
+name: ddd
+version: 1.0.0
+description: Document-Driven Development workflow collection for Amplifier
+author: robotdad
+repository: https://github.com/robotdad/amplifier-collection-ddd
+
+requires:
+  foundation: ^1.0.0
+
+capabilities:
+  - Document-first development workflow for existing codebases
+  - Context poisoning prevention via systematic file processing
+  - Retcon writing for perfect docs-code synchronization
+  - Philosophy-aligned development (Ruthless Simplicity + Modular Design)
+  - Systematic multi-file processing with file crawling technique

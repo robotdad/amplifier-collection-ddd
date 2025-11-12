@@ -154,7 +154,7 @@ Right-size content for audience and purpose.
 
 **Why**: Easy to find info, appropriate detail level, not overwhelming.
 
-Reference: `@ddd:context/core-concepts/progressive-organization.md`
+**Detailed in**: `@ddd:agents/documentation-retroner.md` (Technique 5)
 
 ---
 

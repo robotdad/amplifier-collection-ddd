@@ -17,7 +17,7 @@ Implement code that matches documentation specification exactly. Code follows do
 1. **Code follows docs exactly** - No deviation without doc update
 2. **Load full context first** - Read all related files before coding
 3. **Implement in phases** - Smaller chunks, test as you go
-4. **Use [file crawling](../core_concepts/file_crawling.md)** - For large changes
+4. **Use [file crawling](../core_concepts/file-crawling.md)** - For large changes
 5. **PAUSE on conflicts** - Don't guess, ask user
 6. **Commit incrementally** - Logical feature groupings
 

@@ -23,7 +23,7 @@ Human reviews uncommitted documentation:
 - [ ] Complexity captured honestly
 - [ ] Examples are realistic and will work
 - [ ] Philosophy principles followed
-- [ ] No duplication or [context poisoning](../core_concepts/context_poisoning.md) sources
+- [ ] No duplication or [context poisoning](../core_concepts/context-poisoning.md) sources
 - [ ] Progressive organization makes sense
 - [ ] Human-readable and clear
 

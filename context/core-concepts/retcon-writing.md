@@ -373,9 +373,9 @@ Manage capability profiles:
 
 Retcon writing is applied throughout:
 
-- **[Phase 1](../phases/01_documentation_retcon.md)**: All documentation updates use retcon
-- **[Phase 2](../phases/02_approval_gate.md)**: Review checks for non-retcon language
-- **[Phase 4](../phases/04_code_implementation.md)**: Code implements current state only
+- **[Phase 1](../phases/01-documentation-retcon.md)**: All documentation updates use retcon
+- **[Phase 2](../phases/02-approval-gate.md)**: Review checks for non-retcon language
+- **[Phase 4](../phases/04-code-implementation.md)**: Code implements current state only
 
 ---
 
@@ -421,6 +421,6 @@ grep -rn "instead of\|rather than\|no longer" docs/
 
 **Return to**: [Core Concepts](README.md) | [Main Index](../README.md)
 
-**Related**: [File Crawling](file_crawling.md) | [Context Poisoning](context_poisoning.md)
+**Related**: [File Crawling](file-crawling.md) | [Context Poisoning](context-poisoning.md)
 
-**See Also**: [Phase 1 Step 3](../phases/01_documentation_retcon.md#step-3-retcon-writing-rules)
+**See Also**: [Phase 1 Step 3](../phases/01-documentation-retcon.md#step-3-retcon-writing-rules)

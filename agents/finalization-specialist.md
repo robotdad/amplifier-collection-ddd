@@ -618,7 +618,7 @@ DDD workflow completion"
 - `@ddd:context/philosophy/ddd-principles.md`
 
 **Guides**:
-- `@ddd:context/phases/06_cleanup_and_push.md`
+- `@ddd:context/phases/06-cleanup-and-push.md`
 
 ---
 

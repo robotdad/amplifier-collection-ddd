@@ -8,6 +8,8 @@
 
 The **DDD Collection** equips Amplifier with a proven methodology for evolving existing codebases where documentation leads and code follows:
 
+**Package Structure**: The `ddd/` directory contains Python package metadata for pip installation. Collection content (agents, profiles, context) is in the root-level directories.
+
 - **5 specialized workflow agents** - Each expert in a DDD phase
 - **2 mode-specific profiles** - Documentation mode and implementation mode
 - **Core DDD techniques** - File crawling, retcon writing, context poisoning prevention
@@ -104,7 +106,8 @@ amplifier run "Implement the authentication plan"
 - `file-crawling.md` - Systematic multi-file processing without context overload
 - `context-poisoning.md` - Understanding and prevention strategies
 - `retcon-writing.md` - Writing as-if-feature-already-exists
-- `progressive-organization.md` - Right-sizing content for audience
+
+**Note**: Progressive organization is detailed in `documentation-retroner` agent (Technique 5)
 
 **Phases** (Step-by-Step Guides):
 - `00-planning-and-alignment.md` - Problem framing and design

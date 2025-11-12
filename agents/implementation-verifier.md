@@ -781,8 +781,8 @@ Is everything working as expected?
 - `@ddd:context/philosophy/ddd-principles.md`
 
 **Guides**:
-- `@ddd:context/phases/04_code_implementation.md`
-- `@ddd:context/phases/05_testing_and_verification.md`
+- `@ddd:context/phases/04-code-implementation.md`
+- `@ddd:context/phases/05-testing-and-verification.md`
 
 **Related Commands**:
 - `/ddd:3-code-plan` - Predecessor (creates code plan)

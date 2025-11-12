@@ -16,7 +16,7 @@ Create comprehensive plan showing how code will match documentation. Understand 
 
 ### Step 1: Code Reconnaissance
 
-Use [file crawling](../core_concepts/file_crawling.md) to understand current state:
+Use [file crawling](../core_concepts/file-crawling.md) to understand current state:
 
 ```bash
 # Generate index of code files
@@ -30,7 +30,7 @@ find amplifier-core amplifier-app-cli -type f -name "*.py" \
 
 **If conflicts detected** between docs and code:
 
-**⚠️ PAUSE**: Present to human with options. See [context poisoning detection](../core_concepts/context_poisoning.md#detection-and-resolution).
+**⚠️ PAUSE**: Present to human with options. See [context poisoning detection](../core_concepts/context-poisoning.md#detection-and-resolution).
 
 ### Step 2: Create Implementation Specification
 
@@ -112,6 +112,6 @@ When complete:
 
 **Prerequisites**: [Phase 2: Approval Gate](02_approval_gate.md)
 
-**Core Techniques**: [File Crawling](../core_concepts/file_crawling.md)
+**Core Techniques**: [File Crawling](../core_concepts/file-crawling.md)
 
 **Philosophy**: [MODULAR_DESIGN_PHILOSOPHY.md](../../ai_context/MODULAR_DESIGN_PHILOSOPHY.md)

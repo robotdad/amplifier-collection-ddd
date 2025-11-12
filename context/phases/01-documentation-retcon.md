@@ -6,7 +6,7 @@
 
 ## Goal
 
-Update every piece of documentation to reflect the target state using [retcon writing](../core_concepts/retcon_writing.md). Write as if the feature already exists and always worked this way.
+Update every piece of documentation to reflect the target state using [retcon writing](../core_concepts/retcon-writing.md). Write as if the feature already exists and always worked this way.
 
 **Critical**: Do NOT commit documentation yet. Iterate with human feedback until approved in Phase 2.
 
@@ -22,7 +22,7 @@ Update every piece of documentation to reflect the target state using [retcon wr
 
 **Why retcon style**:
 - Eliminates ambiguity (single timeline: NOW)
-- Prevents [context poisoning](../core_concepts/context_poisoning.md)
+- Prevents [context poisoning](../core_concepts/context-poisoning.md)
 - Clear for both AI and humans
 - No historical confusion
 
@@ -54,7 +54,7 @@ Ready for Phase 2 (Approval)
 
 ## Step 1: Generate File Index
 
-Use [file crawling technique](../core_concepts/file_crawling.md) for systematic processing.
+Use [file crawling technique](../core_concepts/file-crawling.md) for systematic processing.
 
 ```bash
 # Find all non-code files to update
@@ -78,7 +78,7 @@ cat /tmp/docs_checklist.txt
 
 ## Step 2: Sequential File Processing
 
-Process files ONE AT A TIME using [file crawling](../core_concepts/file_crawling.md#step-by-step-guide):
+Process files ONE AT A TIME using [file crawling](../core_concepts/file-crawling.md#step-by-step-guide):
 
 ```bash
 # Processing loop
@@ -123,7 +123,7 @@ done
 
 ## Step 3: Apply Retcon Writing Rules
 
-For each file being updated, follow [retcon writing rules](../core_concepts/retcon_writing.md#retcon-writing-rules):
+For each file being updated, follow [retcon writing rules](../core_concepts/retcon-writing.md#retcon-writing-rules):
 
 ### DO:
 
@@ -142,7 +142,7 @@ For each file being updated, follow [retcon writing rules](../core_concepts/retc
 ❌ Version numbers in content
 ❌ Future-proofing
 
-**Why**: See [Why Retcon Writing Matters](../core_concepts/retcon_writing.md#why-retcon-writing-matters)
+**Why**: See [Why Retcon Writing Matters](../core_concepts/retcon-writing.md#why-retcon-writing-matters)
 
 ---
 
@@ -150,7 +150,7 @@ For each file being updated, follow [retcon writing rules](../core_concepts/retc
 
 **Rule**: Each concept lives in exactly ONE place. Zero duplication.
 
-**Why critical**: Duplication causes [context poisoning](../core_concepts/context_poisoning.md). When one doc updates and another doesn't, AI loads inconsistent information.
+**Why critical**: Duplication causes [context poisoning](../core_concepts/context-poisoning.md). When one doc updates and another doesn't, AI loads inconsistent information.
 
 ### Finding Duplication
 
@@ -482,17 +482,17 @@ diff /tmp/docs_to_process.txt /tmp/complete_docs_list.txt
 
 This phase relies heavily on core concepts:
 
-**[File Crawling](../core_concepts/file_crawling.md)**:
+**[File Crawling](../core_concepts/file-crawling.md)**:
 - Step 1: Generate index
 - Step 2: Sequential processing
 - Prevents forgetting files
 
-**[Context Poisoning](../core_concepts/context_poisoning.md)**:
+**[Context Poisoning](../core_concepts/context-poisoning.md)**:
 - Step 4: Enforce maximum DRY
 - Step 6: Detect and resolve conflicts
 - Prevents inconsistent information
 
-**[Retcon Writing](../core_concepts/retcon_writing.md)**:
+**[Retcon Writing](../core_concepts/retcon-writing.md)**:
 - Step 3: Apply writing rules
 - Step 7: Progressive organization
 - Eliminates timeline ambiguity
@@ -551,4 +551,4 @@ When complete:
 
 **Prerequisites**: [Phase 0: Planning & Alignment](00_planning_and_alignment.md)
 
-**Core Techniques**: [File Crawling](../core_concepts/file_crawling.md) | [Context Poisoning](../core_concepts/context_poisoning.md) | [Retcon Writing](../core_concepts/retcon_writing.md)
+**Core Techniques**: [File Crawling](../core_concepts/file-crawling.md) | [Context Poisoning](../core_concepts/context-poisoning.md) | [Retcon Writing](../core_concepts/retcon-writing.md)
